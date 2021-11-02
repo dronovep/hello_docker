@@ -16,8 +16,8 @@ services:
     image: mphp8-fpm
     volumes:
       - ./config/php/php.ini:/usr/local/etc/php/php.ini
+      - ./config/php-fpm/php-fpm.conf:/usr/local/etc/php-fpm.conf
       - ./config/php-fpm/php-fpm.d/www.conf:/usr/local/etc/php-fpm.d/www.conf
-      - ./config/php-fpm/php-fpm.d/zz-docker.conf:/usr/local/etc/php-fpm.d/zz-docker.conf
       - ./www/index.php:/var/www/html/index.php
       - pgsql_socket:/var/run/postgresql/
       - php_fpm_socket:/run/php-fpm/
