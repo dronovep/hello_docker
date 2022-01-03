@@ -1,0 +1,8 @@
+{
+  "autoload": {
+    "psr-4": {"App\\": "/"}
+  },
+  "require": {
+    "codeception/codeception": "^4.1"
+  }
+}

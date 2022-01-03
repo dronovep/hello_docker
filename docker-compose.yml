@@ -21,6 +21,7 @@ services:
       - ./www/index.php:/var/www/html/index.php
       - pgsql_socket:/var/run/postgresql/
       - php_fpm_socket:/run/php-fpm/
+      - /home/nerevarino/PhpstormProjects/hello_docker/src:/var/www/src
 
   nginx:
     image: nginx:alpine

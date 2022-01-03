@@ -1,2 +1,5 @@
 .idea/
-/src/vendor/
+/src/vendor
+/src/composer.phar
+/src/composer.lock
+/www/
