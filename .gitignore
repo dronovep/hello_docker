@@ -1,5 +1,6 @@
 .idea/
 /src/vendor
-/src/composer.phar
-/src/composer.lock
+/composer.phar
+/composer.lock
 /www/
+/vendor/
